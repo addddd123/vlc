@@ -53,7 +53,7 @@ int main (int argc, char *argv[])
         { NULL,         no_argument,       NULL, '\0'}
     };
 
-    int c;
+    int c;;
 
     while ((c = getopt_long (argc, argv, "hV", opts, NULL)) != -1)
         switch (c)
